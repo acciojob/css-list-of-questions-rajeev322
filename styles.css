@@ -1,11 +1,24 @@
 /* Your CSS Code here. */
  <style>
-    .questions {
+     .questions {
       background-color: #f8fffe;
       height: 50px;
       margin-top: 20px;
       padding: 15px;
       max-width: 600px;
       border-left: 8px solid green;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .questions p {
+      margin: 0;
+
+    }
+
+    .roman {
+       font-weight: normal;
+      text-transform: lowercase;
+      margin-right: 8px;
     }
   </style>
